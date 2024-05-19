@@ -14,3 +14,12 @@ RewriteRule . /vercel-project7/index.php [L]
 </IfModule>
 
 # END WordPress
+# BEGIN Simply Static
+# The directives (lines) between "BEGIN Simply Static" and "END Simply Static" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<Files "C:\xampp\htdocs\vercel-project7/wp-content/uploads\simply-static\c62015325c543d450e4f5abe42d675df-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
